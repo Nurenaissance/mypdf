@@ -17,7 +17,7 @@ export enum Color {
   BROWN = 'brown',
   GREY = 'grey',
   BLACK = 'black',
-  WHITE = 'white',
+
 }
 
 export enum AttachmentTypes {
