@@ -39,7 +39,7 @@ export const Drawing = ({
     }
   }, [svgRef, width, height]);
 
-  const handleMousedown = (event: React.MouseEvent<HTMLDivElement>) => {
+  const handleMousedown = () => {
     setMouseDown(true);
     setOperation(DragActions.MOVE);
   };

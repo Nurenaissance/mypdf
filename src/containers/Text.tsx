@@ -52,7 +52,7 @@ export const Text = ({
     }
   };
 
-  const handleMousedown = (event: React.MouseEvent<HTMLDivElement>) => {
+  const handleMousedown = () => {
     if (textMode !== TextMode.COMMAND) {
       return;
     }
